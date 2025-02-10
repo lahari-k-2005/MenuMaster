@@ -1,0 +1,201 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+  
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .container {
+    padding-top: 30px;
+    justify-items: center;
+  }
+  
+  .Home {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background-color: orange;
+    padding: 5px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  main {
+    padding: 2rem;
+    background-color: transparent;
+    border-radius: 8px;
+  }
+  
+  .search-bar {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 0.5rem;
+    width: 60%;
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .search-bar button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .section-heading {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .jumbotron {
+    position: relative;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    background-color: #FFFAF0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 200px;
+  }
+  
+  @media (min-width: 768px) {
+    .jumbotron {
+      height: 400px; 
+    }
+  }
+
+  
+  
+  .item {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fffaf5; 
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(252, 128, 4, 0.546); 
+  }
+  
+
+  .item-content {
+    
+    flex: 1;
+    color: #df1010; 
+  }
+  
+  .item button {
+    background-color: #ff802b; 
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .item button:hover {
+    background-color: #cc5200; 
+  }
+  
+  .item span {
+    font-size: 18px;
+    margin: 0 10px;
+    color: #ff6600; 
+  }
+  .container-fluid p {
+    text-align: center;
+    font-size: 18px;
+    color: #333; 
+  }
+  
+  .container-fluid button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .container-fluid button:hover {
+    background-color: #45a049;
+  }
+  
+  .transparent-tabs .nav-tabs {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.transparent-tabs .nav-link {
+    color: #000 !important; /* Default color for the links */
+    transition: color 0.2s ease-in-out; /* Optional: Add a transition for a smoother color change */
+}
+
+.transparent-tabs .nav-link.active {
+    background-color: transparent !important;
+    border-color: transparent transparent #000 transparent !important;
+    border-width: 2px;
+    color: #000 !important; /* Color for the active tab */
+}
+
+.transparent-tabs .nav-link:hover {
+    color: #000 !important; /* Hover color */
+    background-color: rgba(0, 0, 0, 0.1); /* Optional: Add a slight background change on hover for better visibility */
+}
+
+.transparent-tabs .tab-content {
+    background-color: transparent !important;
+}

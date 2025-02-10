@@ -1,0 +1,134 @@
+/* Navbar.css */
+header {
+    background-color: #fff; /* Changed to white */
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    padding: 3px 3px;
+    display: inline-block;
+    position: relative; /* Necessary for dropdown positioning */
+    margin-right: 1rem;
+    background-color: orange;
+  }
+  
+  nav ul li a, .dropdown-toggle {
+    text-decoration: none;
+    color: #333;
+    padding: 3px 5px; /* Ensure padding matches navbar items */
+    display: block;
+    background-color: orange;
+  }
+  
+  nav ul li a:hover, .dropdown-toggle:hover {
+    background-color: orange; /* Change hover background color for consistency */
+    color: #000; /* Ensure text color remains readable on hover */
+  }
+  
+  /* Dropdown Styles */
+  .dropdown-menu {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 100%; /* Position it just below the dropdown button */
+    left: 0;
+    background-color: orange; /* Matches header background */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    min-width: 160px; /* Set a minimum width for dropdown */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add shadow for better visibility */
+    z-index: 1000; /* Ensure it appears above other content */
+  }
+  
+  .dropdown-menu li {
+    margin: 0;
+    background-color: orange;
+  }
+  
+  .dropdown-menu li a {
+    color: #333; /* Match text color to navbar items */
+    padding: 5px 5px; /* Match padding to navbar items */
+    display: block;
+    background-color: orange; /* Matches dropdown background */
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: #ddd; /* Match hover color to navbar items */
+    color: #000; /* Ensure text color remains readable on hover */
+  }
+  
+  /* Show dropdown menu when the dropdown is open */
+  .dropdown:hover .dropdown-menu,
+  .dropdown .dropdown-menu {
+    display: block;
+  }
+  
+  /* Modal and Password Box */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it is on top */
+  }
+  
+  .password-box {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1001; /* Ensure it is on top of the overlay */
+  }
+  
+  .password-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .password-box label {
+    margin-bottom: 10px;
+  }
+  
+  .password-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .password-box button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .password-box button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  

@@ -1,0 +1,29 @@
+.star-rating {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .star-rating .star {
+    font-size: 24px;
+    color: #ccc; /* Grey for empty stars */
+    position: relative;
+  }
+  
+  .star-rating .star.filled {
+    color: #FFD700; /* Yellow for filled stars */
+  }
+  
+  .star-rating .star.half::before {
+    content: '\u2605';
+    color: #FFD700; /* Yellow for half stars */
+    position: absolute;
+    width: 50%;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+  }
+  
+  .star-rating.read-only {
+    cursor: default;
+  }
+  

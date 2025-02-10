@@ -1,0 +1,127 @@
+/*.orders-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.order-card {
+    background-color: #fff5e6; 
+    margin-bottom: 15px;
+    border: 1px solid #ffcc99;
+    border-radius: 8px;
+}
+
+.order-card h3 {
+    margin-top: 0;
+    color: #ff6600; 
+}
+
+.order-items {
+    margin-top: 10px;
+}
+
+.order-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #ffcc99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-item:last-child {
+    border-bottom: none;
+}
+
+.item-details {
+    flex: 1;
+}
+
+.item-name {
+    font-size: 16px;
+    color: #ff6600; 
+    margin: 0;
+}
+
+.item-price {
+    font-size: 14px;
+    color: #008000; 
+    margin: 0;
+}
+
+.item-quantity {
+    font-size: 16px;
+    color: #008000; 
+    margin: 0;
+    flex-shrink: 0;
+    margin-left: 10px;
+}
+
+.total-price {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ff6600; 
+    text-align: right;
+}*/
+/* UserOrders.css */
+
+
+
+.orders{
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+}
+
+.order-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.order-table th,
+.order-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.order-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.total-price {
+    margin-top: 16px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: right;
+}

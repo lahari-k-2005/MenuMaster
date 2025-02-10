@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+h1 {
+  color: #ff6600; /* Orange */
+  text-align: center;
+}
+
+form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.feedback-list {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-item {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.feedback-item:last-child {
+  border-bottom: none;
+}
+
+.feedback-item p {
+  margin: 5px 0;
+}
+
+.feedback-item p:first-child {
+  color: #ff6600; /* Orange */
+  font-weight: bold;
+}
+
+.feedback-item p:nth-child(2) {
+  color: #ffcc00; /* Star color */
+  font-size: 20px;
+}
+
+/* Star rating styles */
+.star-rating {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.star {
+  font-size: 30px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.star.filled {
+  color: #ffcc00;
+}
+/* 
+.star:hover,
+.star:hover ~ .star {
+  color: #ffcc00;
+} */

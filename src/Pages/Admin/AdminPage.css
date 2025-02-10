@@ -1,0 +1,115 @@
+/* AdminPage.css */
+/* .container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+} */
+
+.Admin{
+    min-height: 100vh;
+    min-width:100vw;
+}
+
+h2 {
+    color: #4CAF50; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #FF9800;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+input[type = "text1"], 
+input[type = "number1"] {
+    width: 50vw;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45A049; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li div {
+    display: flex;
+    align-items: center;
+}
+
+li input {
+    width: auto;
+    margin-left: 10px;
+}
+
+li button {
+    margin-left: 10px;
+    background-color: #FF9800; 
+}
+
+li button:hover {
+    background-color: #FB8C00;
+}
+li button.cancel {
+    background-color: #F44336; 
+}
+
+li button.cancel:hover {
+    background-color: #E53935;
+}
+
+/* CustomStyles.css */
+
+.transparent-tabs .nav-tabs {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.transparent-tabs .nav-link {
+    color: #000 !important; /* You can adjust the color to your preference */
+}
+
+.transparent-tabs .nav-link.active {
+    background-color: transparent !important;
+    border-color: transparent transparent #000 transparent !important;
+    color: #000 !important; /* Adjust color for the active tab */
+}
+
+.transparent-tabs .tab-content {
+    background-color: transparent !important;
+}
